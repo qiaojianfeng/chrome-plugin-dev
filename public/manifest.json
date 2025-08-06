@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "React Chrome Plugin",
+  "version": "1.0.0",
+  "description": "A Chrome plugin built with React and Rsbuild that enhances browsing experience with custom features and content modifications.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["static/js/contentScript.js"],
+      "css": ["static/css/contentScript.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "static/js/serviceWorker.js"
+  }
+
+}

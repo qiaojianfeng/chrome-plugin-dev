@@ -1,6 +1,6 @@
-# Git Chrome Plugin
+# Chrome Plugin
 
-A powerful Chrome extension built with modern web technologies to enhance your Git workflow and productivity.
+A powerful Chrome extension built with modern web technologies.
 
 ## 🚀 Features
 

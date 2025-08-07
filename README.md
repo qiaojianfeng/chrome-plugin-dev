@@ -4,7 +4,6 @@ A powerful Chrome extension built with modern web technologies.
 
 ## 🚀 Features
 
-- **Git Integration**: Seamlessly interact with Git repositories directly from your browser
 - **Smart Notifications**: Get real-time updates on repository activities
 - **Code Review Tools**: Simplify the code review process with intuitive UI
 - **Performance Optimized**: Built with efficiency in mind for smooth user experience
